@@ -1,0 +1,35 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+ul li a {
+  margin-right: 20px;
+  list-style: none;
+  color: gray;
+  font-weight: 600;
+  font-size: 13px;
+}
+ul li a:hover {
+  color: rgb(255, 76, 151);
+}
+body {
+  padding-top: 100px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+
+  padding-left: 30px;
+}

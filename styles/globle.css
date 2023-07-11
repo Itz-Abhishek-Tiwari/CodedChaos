@@ -2,7 +2,10 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-
+@font-face {
+  font-family: myFirstFont;
+  src: local("fonts/Dry Brush.ttf");
+}
 body {
   padding-top: 100px;
   background-color: #f6f5f4;

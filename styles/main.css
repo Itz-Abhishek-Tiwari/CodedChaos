@@ -16,7 +16,7 @@
   margin-left: 10px;
 }
 .date-comment {
-  color: gray;
+  color: #848da2;
   font-size: 10px;
   margin-top: 15px;
   line-height: 26px;
@@ -35,11 +35,11 @@
   padding-top: 20px;
   padding-bottom: 50px;
   flex: 1;
-  color: rgb(46, 47, 51);
+  color: #262a34;
 }
 
 .page_number {
-  color: rgb(5, 150, 253);
+  color: #6dcced;
 }
 .page,
 .page_list {
@@ -54,7 +54,7 @@
   font-weight: 800;
 }
 .older_page {
-  background-color: rgb(247, 130, 0);
+  background-color: #d29431;
   border: none;
   color: white;
   font-weight: 800;

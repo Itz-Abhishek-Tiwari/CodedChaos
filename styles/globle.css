@@ -2,6 +2,9 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+html {
+  color-scheme: light dark;
+}
 @font-face {
   font-family: myFirstFont;
   src: local("fonts/Dry Brush.ttf");
@@ -10,6 +13,7 @@ body {
   padding-top: 100px;
   background-color: #f6f5f4;
   color: #352f3d;
+  line-height: 1.6;
 }
 a {
   text-decoration: none;
@@ -36,4 +40,14 @@ footer {
   padding-bottom: 20px;
   flex-wrap: wrap;
   padding-left: 30px;
+}
+/* kevin powell defualt */
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+.blog-cards {
+  width: min(200ch, 100% - 4rem);
+  margin-inline: auto;
 }

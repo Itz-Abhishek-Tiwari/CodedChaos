@@ -48,9 +48,3 @@ svg {
   width: min(200ch, 100% - 4rem);
   margin-inline: auto;
 }
-@font-face {
-  font-family: "CustomFont";
-  src: url("fonts/dry_brush-webfont.woff2") format("woff2"),
-    url("fonts/dry_brush-webfont.woff") format("woff");
-  /* Add any additional variations here, like font weight or style */
-}

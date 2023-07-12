@@ -32,9 +32,8 @@
   padding-top: 1px;
 }
 .coded-chaos {
-  font-family: "Dry Brush", sans-serif;
-  font-size: 45px;
-  color: #262a34;
+  margin-bottom: 10px;
+  max-width: 100%;
 }
 .right_section,
 .left_section {

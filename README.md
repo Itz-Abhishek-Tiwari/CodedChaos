@@ -1,3 +1,3 @@
 # CodedChaos
  Simple Blog
-![image](https://github.com/Itz-Abhishek-Tiwari/CodedChaos/assets/69257109/06e272ec-9a28-420a-b2e3-433989182bbe)
+![image](https://github.com/Itz-Abhishek-Tiwari/CodedChaos/assets/69257109/09339584-8d3f-4ae1-8d25-ba6960f3cbca)

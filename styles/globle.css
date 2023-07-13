@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  outline: transparent;
 }
 html {
   color-scheme: light dark;
@@ -11,6 +12,7 @@ body {
   background-color: #f6f5f4;
   color: #352f3d;
   line-height: 1.6;
+  outline: transparent;
 }
 a {
   text-decoration: none;

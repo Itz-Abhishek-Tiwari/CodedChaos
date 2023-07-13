@@ -11,14 +11,14 @@ html {
 
 body {
   padding-top: 100px;
-  background-color: #f6f5f4;
-  color: #352f3d;
+  background-color: #e9edf1;
+  color: #2d3b4e;
   line-height: 1.6;
   outline: transparent;
 }
 a {
   text-decoration: none;
-  color: #262a34;
+  color: #2d3b4e;
 }
 ul li {
   margin-right: 20px;

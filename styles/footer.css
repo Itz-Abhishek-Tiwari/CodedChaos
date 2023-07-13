@@ -1,9 +1,9 @@
 .about_us {
-  color: #262a34;
+  color: #2d3b4e;
   font-size: 13px;
 }
 .about_us-2 {
-  color: #6dcced;
+  color: #5fb7d4;
 }
 
 .conect-2 {
@@ -20,3 +20,6 @@
     justify-content: center;
   }
 }
+
+/* color palette */
+/* https://colormagic.app/palette/FsxAfHdSfJKiuMQGHinD */

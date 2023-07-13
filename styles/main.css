@@ -34,7 +34,10 @@
 }
 
 .page_number {
-  color: #6dcced;
+  color: #5fb7d4;
+}
+.page_number:hover {
+  color: #f44336;
 }
 .page,
 .page_list {
@@ -49,7 +52,7 @@
   font-weight: 800;
 }
 .older_page {
-  background-color: #d29431;
+  background-color: #e9b767;
   border: none;
   color: white;
   font-weight: 800;
@@ -92,7 +95,7 @@
 }
 
 .tag {
-  background-color: #d29431;
+  background-color: #e9b767;
   color: white;
   padding: 5px 10px;
   font-weight: 700;
@@ -118,19 +121,19 @@
 }
 
 .post-desc {
-  color: #4c4e53;
+  color: #2d3b4e;
   font-weight: 500;
 }
 .list-1 {
   line-height: 35px;
   list-style: circle;
-  color: #4c4e53;
+  color: #495b6f;
 }
 .list-res {
   list-style: disc;
 }
 .banner-2 {
-  width: 500px;
+  width: 900px;
 }
 
 .share-btn {
@@ -144,7 +147,7 @@
   padding: 10px;
   width: 30px;
   background-color: #fffbfb;
-  border: 2px solid wheat;
+  border: 2px solid #b3bfcc;
   border-radius: 80px;
   margin-top: 12px;
 }
@@ -163,10 +166,10 @@
   justify-content: center;
   margin-top: 30px;
   align-items: center;
-  color: #262a34;
+  color: #2d3b4e;
 }
 .new-tag-color {
-  color: #262a34;
+  color: #2d3b4e;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -190,7 +193,7 @@
 .reddit,
 .instagram {
   transition: transform 0.2s;
-  box-shadow: 0 1px 5px rgba(219, 223, 230, 0.479);
+  box-shadow: 0 1px 5px rgb(179, 191, 204, 0.9);
 }
 .share :hover,
 .facebook :hover,

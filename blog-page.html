@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodedChaos-page-in-view</title>
@@ -48,7 +49,7 @@
             </a>
           </li>
         </ul>
-        <img class="menu-icon" src="assets/search.svg" />
+        <img class="menu-icon search-btn-modal" src="assets/search.svg" />
       </div>
     </header>
 
@@ -198,5 +199,16 @@
         </ul>
       </div>
     </footer>
+    <!-- modal window for search -->
+    <dialog class="modal-search">
+      <input
+        class="search-box"
+        type="text"
+        placeholder="Search and press Enter"
+      />
+      <img class="close-btn" src="assets/close-fill.svg" alt="Close" />
+    </dialog>
+    <!-- script -->
+    <script src="script.js"></script>
   </body>
 </html>

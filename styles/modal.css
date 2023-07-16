@@ -1,35 +1,3 @@
-.close-btn {
-  background-color: #2d3b4e;
-  width: 16px;
-  border-radius: 90px;
-  padding: 9px;
-  cursor: pointer;
-
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-.search-box {
-  background-color: rgba(233, 237, 241, 0.847);
-  border: none;
-  outline: none;
-  width: 500px;
-  border-radius: 10px;
-  color: #2d3b4e;
-  font-size: 20px;
-  padding: 10px 30px;
-  border: 0;
-  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.267);
-}
-
-.search-box::placeholder {
-  color: #2d3b4e;
-}
-
-.modal-search::backdrop {
-  background-color: rgba(233, 237, 241, 0.847);
-}
-
 .modal-search {
   background-color: transparent;
   border: none;
@@ -39,17 +7,41 @@
   transform: translate(-50%, -50%);
   max-width: 100%;
   padding: 20px;
-
-  & > * {
-    margin: 0 0 0.5rem 0;
-  }
 }
+
+.search-box {
+  background-color: rgba(233, 237, 241, 0.847);
+  border-radius: 10px;
+  color: #2d3b4e;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.267);
+}
+
+.search-box::placeholder {
+  color: #2d3b4e;
+}
+
+.close-btn {
+  background-color: #2d3b4e;
+  width: 16px;
+  border-radius: 50%;
+  padding: 9px;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.modal-search::backdrop {
+  background-color: rgba(233, 237, 241, 0.847);
+}
+
 @media (max-width: 1111px) {
   .search-box {
     width: 300px;
     font-size: 15px;
-  }
-  .modal-search {
-    max-width: 100%;
   }
 }

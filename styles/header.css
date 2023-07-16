@@ -55,6 +55,9 @@
   .conect-1 {
     display: none;
   }
+
+.coded-chaos {
+  max-width:50%;
 }
 .latest_heading {
   text-align: start;

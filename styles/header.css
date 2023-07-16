@@ -58,7 +58,12 @@
   .conect-1 {
     display: none;
   }
-}
+
+.coded-chaos {
+  max-width:50%;
+display: flex;
+align-items: center;
+} }
 .latest_heading {
   text-align: start;
 }
